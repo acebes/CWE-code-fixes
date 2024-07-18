@@ -1,5 +1,5 @@
 
-## CWE-564: SQL Injection: Hibernate
+## CWE-564: SQL Injection
 
 
 To prevent SQL injection attacks in Java, you should use parameterized queries with `PreparedStatement` objects rather than concatenating strings to build SQL queries. Here's how you can create parameterized SQL queries in Java to ensure security:
