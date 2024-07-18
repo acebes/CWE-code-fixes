@@ -1,4 +1,4 @@
-heap inspection
+## CWE-244: Improper Clearing of Heap Memory Before Release ('Heap Inspection')
 
 In Java, if you want to guard sensitive information like passwords or other secure strings against heap inspection (e.g., to prevent them from being easily accessible in memory dumps), you can use `char` arrays instead of `String` objects. Here’s how you can do it:
 
